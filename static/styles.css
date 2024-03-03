@@ -1,0 +1,244 @@
+.img-fondo1 {
+  background-image: url("https://steamuserimages-a.akamaihd.net/ugc/1474318984935088802/B3C535C982BBDDAF91DDFFF515FB4A8137899BEA/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+}
+.img-fondo2 {
+  background-image: url("https://maduradas.com/wp-content/uploads/2021/04/0803c7704eb7b3ebffb405ae1892f598-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+}
+.start-boton {
+  margin-top: 15%;
+  margin-left: 22%;
+  width: 1000px; 
+  height: 400px; 
+  background-color: transparent ;
+  background-image: url('https://i.gifer.com/ZS3t.gif'); 
+  background-position: center center;
+  background-size: cover; 
+  border: none; 
+  cursor: pointer;
+  outline: none; 
+}
+.start-boton:hover {
+  transform: scale(1.05) rotate(10deg);
+  transition: transform 1s ease;
+}
+
+.start-boton:not(:hover) {
+  transform: scale(1) rotate(0deg);
+  transition: transform 1s ease;
+}
+
+body, html {
+  cursor: move;
+  height: 100%;
+  margin: 0;
+}
+
+.contenedor {
+  position: relative;
+}
+
+.gato-movil {
+  position: absolute;
+  width: 150px; 
+  height: auto;
+  animation: moverGato 5s linear infinite; 
+}
+.travolta-movil {
+  position: absolute;
+  width: 200px; 
+  height: auto;
+  animation: moverTravolta 5s linear infinite; 
+}
+.alien-movil {
+  position: absolute;
+  width: 200px; 
+  height: auto;
+  animation: moverAlien 5s linear infinite; 
+}
+.errorImg1{
+  margin-left: 70%;
+  position: absolute;
+  width: 400px; 
+  height: auto;
+}
+.errorImg2{
+  position: absolute;
+  width: 600px; 
+  height: auto;
+}
+.errorImg3{
+  margin-top: 26%;
+  margin-left: 67%;
+  position: absolute;
+  width: 600px; 
+  height: auto;
+  animation: marisa 1s infinite alternate;  
+}
+.errorImg4{
+  position: absolute;
+  width: 200px; 
+  height: auto;
+  animation: error4 4s linear infinite;   
+}
+.errorImg5{
+  position: absolute;
+  width: 200px; 
+  height: auto;
+  animation: error4 2s linear infinite;   
+}
+.errorImg6{
+  position: absolute;
+  width: 200px; 
+  height: auto;
+  animation: error4 1s linear infinite;   
+}
+.errorImg7{
+  margin-top: 35%;
+  margin-left: 0%;
+  position: absolute;
+  width: 600px; 
+  height: auto;
+  animation: marisa 1s infinite alternate;   
+}
+.flecha{
+  margin-top: 15%;
+  margin-left: 35%;
+  position: absolute;
+  width: 600px; 
+  height: auto;
+}
+.flecha:hover {
+  transform: scale(1.1) rotate(360deg);
+  transition: transform 0.5s ease;
+}
+.metal-movil {
+  position: absolute;
+  width: 200px; 
+  height: auto;
+  animation: moverMetal 5s linear infinite; 
+}
+@keyframes moverGato{
+  0% {
+    top: 0;
+    left: 0;
+  }
+  50% {
+    top: 0;
+    left: 89%;
+  }
+  100% {
+    top: 0;
+    left: 0;
+  }
+}
+
+@keyframes moverTravolta{
+  0% {
+    top: 0;
+    left: 89%;
+  }
+  50% {
+    top: 0;
+    left: 0;
+  }
+  100% {
+    top: 0;
+    left: 89%;
+  }
+}
+@keyframes moverAlien{
+  0% {
+    top: 0;
+    left: 0;
+  }
+  50% {
+    top: 68%;
+    left: 0;
+  }
+  100% {
+    top: 0;
+    left: 0;
+  }
+}
+
+@keyframes error4 {
+  0% {
+      top: 0;
+      left: 0;
+  }
+  25% {
+      top: 0;
+      left: 88%;
+  }
+  50% {
+      top: 75%;
+      left: 88%;
+  }
+  75% {
+      top: 75%;
+      left: 0;
+  }
+  100% {
+      top: 0;
+      left: 0;
+  }
+}
+@keyframes moverMetal{
+  0% {
+    top: 68%;
+    left: 89%;
+  }
+  50% {
+    top: 0;
+    left: 89%;
+  }
+  100% {
+    top: 68%;
+    left: 89%;
+  }
+}
+
+@keyframes marisa {
+  from {
+    box-shadow: 0 0 10px 0px blue;  
+  }
+  to {
+    box-shadow: 0 0 20px 5px purple;  /
+  }
+}
+
+.texto-api{
+  font-size: 6;
+  font-family: monospace;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: max-content;
+  border-radius: 8px;
+  padding: 16px;
+  backdrop-filter: blur(40px);
+  color: rgb(255, 255, 255);
+  position: absolute;
+  
+  z-index: 2;
+}
+@keyframes escribir {
+  from { width: 100% }
+  to { width:0 }
+}
+.casa{
+  margin-top: 0%;
+  margin-left: 0%;
+  position: absolute;
+  width: 200px; 
+  height: auto;
+}
+
+
+
