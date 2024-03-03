@@ -239,6 +239,36 @@ body, html {
   width: 200px; 
   height: auto;
 }
+.capas {
+  margin-top: 0%;
+  margin-left: 0%;
+  position: relative;
+  max-width: 200px;
+}
+.capas img {
+  position: absolute;
+  max-width: 100%;
+  transition: all ease 1250ms;
+}
+.capas:hover .capa0 {
+  transform: perspective(2000px) rotateX(0deg) rotateY(30deg) rotateZ(0deg) translateX(-30px) translateY(0px) translateZ(0px);
+}
+.capas:hover .capa1 {
+  transform: perspective(2000px) rotateX(0deg) rotateY(30deg) rotateZ(0deg) translateX(-30px) translateY(0px) translateZ(40px);
+  opacity: .6;
+}
+.capas:hover .capa2 {
+  transform: perspective(2000px) rotateX(0deg) rotateY(30deg) rotateZ(0deg) translateX(-30px) translateY(0px) translateZ(80px);
+}
+.capas:hover .capa3 {
+  transform: perspective(2000px) rotateX(0deg) rotateY(30deg) rotateZ(0deg) translateX(-30px) translateY(0px) translateZ(120px);
+}
+.capas:hover .capa4 {
+  transform: perspective(2000px) rotateX(0deg) rotateY(30deg) rotateZ(0deg) translateX(-30px) translateY(0px) translateZ(160px);
+}
+.capas:hover .capa5 {
+  transform: perspective(2000px) rotateX(0deg) rotateY(30deg) rotateZ(0deg) translateX(-30px) translateY(0px) translateZ(200px);
+}
 
 
 
